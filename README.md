@@ -1,2 +1,3 @@
 # meushibot-pages
-Github Pages for Meushi!
+A serverless website for people wanting to learn more about "Meushi!"
+
