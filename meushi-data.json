@@ -1,0 +1,54 @@
+{
+    "skins": {
+        "v1": {
+            "skinfile": "example.com/skins/meushiv1.png",
+            "bodyRender": "example.com/skins/meushiv1_render.png"
+        }
+    },
+    "endpoints": {
+        "mc": {
+            "fullname": "Minecraft",
+            "description": "The hit game originally created by Notch. Meushi can connect to various servers simultaneously."
+        },
+        "dsc": {
+            "fullname": "Discord",
+            "description": "An online chat platform with various guilds you can join, originally designed for gamers."
+        },
+        "irc": {
+            "fullname": "Internet Relay Chat",
+            "description": "An integrated IRC server that operates under Meushi."
+        }
+    },
+    "version": "0.2.7 (TypeScript Beta)",
+    "description": "A frienshi ushimimi cowgirl created by BlockyClockwork as a universal digital assistant. She features a persistent memory, an ability to interface on multiple platforms, and is highly expandable and modular.",
+    "article_sections": [
+        "Meushi was originally created in 2023 as a kitbot on select \"anarchy\" minecraft servers, as a learning project but later was abandoned. In 2024 her codebase was revisited and overhauled with the inspiration of Neuro Sama to convert the project into a digital AI assistant."
+    ],
+    "commands": {
+        "tp": {
+            "usage": ["/tp"],
+            "endpoints": ["mc"],
+            "description": "Allows Meushi to Teleport you"
+        },
+        "bank": {
+            "usage": ["/bank balance"],
+            "endpoints": [],
+            "description": "View your bank balance!"
+        },
+        "rank": {
+            "usage": ["/rank", "/rank top"],
+            "endpoints": [],
+            "description": "View your level and amount of experience you have."
+        },
+        "stocks": {
+            "usage": ["/stocks counts", "/stocks price [input] [input_amount] [output]", "/stocks trade [input] [input_amount] [output]"],
+            "endpoints": [],
+            "description": "Trade currencies like stocks."
+        },
+        "slots": {
+            "usage": ["/slots [amount]"],
+            "endpoints": [],
+            "description": "Gamble ushicoin at the slots machine!"
+        }
+    }
+}
